@@ -16,13 +16,8 @@ if(isset($_GET['protocol'])){
             $header_version = "header.public";
         }
     }
-    if(isset($_SESSION['id'])){
-        $header_version = "header.logged";
-    }else{
-        $header_version = "header.public";
-    
 }else{
-    if(isset($_SESSION['id']){
+    if(isset($_SESSION['id'])){
         $protocol_page = "main";
         $header_version = "header.logged";
     }else{
