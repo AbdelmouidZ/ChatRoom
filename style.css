@@ -19,7 +19,7 @@ body{
 .links{
     margin-left: auto;
 }
-.links a{
+.header a{
     text-decoration: none;
     color: white;
     font-weight: bold;

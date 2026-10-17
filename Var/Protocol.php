@@ -3,6 +3,7 @@ if(isset($_GET['protocol'])){
     if(($_GET['protocol'] != "auth.login")&&($_GET['protocol'] != "auth.register")){
         if(isset($_SESSION['id'])){
             $protocol_page = $_GET['protocol'];
+            $header_version = "header.logged";
         }else{
             $protocol_page = "auth.login";
             $header_version = "header.public";
@@ -12,7 +13,7 @@ if(isset($_GET['protocol'])){
             $protocol_page = "main";
             $header_version = "header.logged";
         }else{
-            $protocol_page = "auth.login";
+            $protocol_page = $_GET['protocol'];
             $header_version = "header.public";
         }
     }
