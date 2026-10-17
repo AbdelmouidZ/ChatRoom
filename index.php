@@ -1,5 +1,5 @@
 <?php
-include("Var/Crendentials.php");
+include("Var/Credentials.php");
 include("Var/Connect.php");
 include("Var/Vars.php");
 include("Config/Config.php");
@@ -14,8 +14,8 @@ include("Func/Func.php");
 </head>
 <body>
     <?php
-    include("Tronc/$header_version.php");
-    include("Tronc/$protocol_page.php");
+        include("Tronc/$header_version.php");
+        include("Tronc/$protocol_page.php");
     ?>
 </body>
 </html>
