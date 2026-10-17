@@ -1,9 +1,10 @@
 <?php
+include("Var/Crendentials.php");
+include("Config/Config.php");
 include("Var/Connect.php");
 include("Var/Vars.php");
 include("Var/Protocol.php");
 include("Func/Func.php");
-include("Config/Config.php");
 ?>
 <html>
 <head>
