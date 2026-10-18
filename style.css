@@ -24,18 +24,19 @@ body{
     color: white;
     font-weight: bold;
 }
-.red_box {
+.red_box{
     background-color: rgba(255, 0, 0, 0.2);
     width: 100px;
     height: 10px;
     border-radius: 5px;
     border: 1px solid red;
 }
-.auth_login {
-    display: flex;
-    justify-content: flex-end;
+.auth_login{
     align-items: center;
     margin-right: 20px;
     width:200px;
     height:auto;
+    border:1px solid black;
+    background-color: lightgray(0, 0, 0, 0.1);
+    padding:10px;
 }
